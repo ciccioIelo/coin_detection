@@ -20,10 +20,10 @@ hand-made denomination label.
 | images with the exact coin count | **137 / 142** (96.5%) |
 | mean absolute count error | 0.049 coins/image |
 | coins detected | 323 (6 missed, 1 spurious) |
-| denomination accuracy, per coin | **65.8%** over 322 labels |
+| denomination accuracy, per coin | **66.1%** over 322 labels |
 | &nbsp;&nbsp;— colour + diameter only | 60.2% |
 | &nbsp;&nbsp;— colour + design only | 56.5% |
-| total on the table | 134.04 € predicted |
+| total on the table | 134.74 € predicted |
 
 Accuracy is strongly conditioned on how many coins share the frame — 58.2% on single-coin images
 against 68.3% on images with five or more — because the diameter cue needs companions to
@@ -134,7 +134,7 @@ image_1.jpg - 3 coin(s) found:
   Coin 3 {value: 0.020}
   Partial Amount {value: 0.090}
 ...
-Total Amount: 134.040 €
+Total Amount: 134.740 €
 ```
 
 ---
